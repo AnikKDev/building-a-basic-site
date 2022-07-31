@@ -3,10 +3,8 @@ import React from "react";
 import Footer from "./components/Footer/Footer";
 // import header
 import Header from "./components/Header/Header";
-// import Second Banner
-import SecondBanner from "./components/Home/SecondBanner";
-// import Top Banner
-import TopBanner from "./components/Home/TopBanner";
+// import Home
+import Home from "./components/Home/Home";
 
 //src/App.js import './App.css'; 
 function App() {
@@ -15,8 +13,7 @@ function App() {
 
     <div className="App">
       <Header />
-      <TopBanner />
-      <SecondBanner />
+      <Home />
       <Footer />
     </div>
   );
